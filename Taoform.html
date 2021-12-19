@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+   <form method=get action="Taoform.html" class="wufoo">
+       <h1>Order Form</h1>
+       <h2>What would you like to buy</h2>
+        <select>
+            <option value="">Trà sữa</option>
+            <option value="">Cafe</option>
+            <option value="">Sinh tố</option>
+        </select>
+       <h2>How many would you like to order</h2>
+            <input type="radio" name="money">1-$10
+            <br>
+            <input type="radio" name="money">2-$20
+            <br>
+            <input type="radio" name="money">3-$25
+        <h2>Name</h2>
+            <input type="text" name="Firstname" placeholder="Firstname">
+            <input type="text" name="Lastname" placeholder="Lastname">
+        <h2>Email</h2>
+            <input type="Email" name="Email" placeholder="VD: Vudieu22@gmail.com">
+        <h2>Số điện thoại</h2>
+            <input type="number" name="number1">-
+            <input type="number" name="number2">-
+            <input type="number" name="number3">
+        <br>
+        <p><input type="button" name="btSubmit" value="Submit"/></p>
+   </form>   
+   <style>
+    .wufoo {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    </style>    
+</body>
+</html>
